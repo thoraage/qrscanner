@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>no.simplicityworks</groupId>
 	<artifactId>qrscanner</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1</version>
 	<dependencies>
 		<dependency>
 			<groupId>com.google.zxing</groupId>
