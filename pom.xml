@@ -21,6 +21,21 @@
 					<target>1.6</target>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>2.3</version>
+                <configuration>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                    <archive>
+                        <manifest>
+                            <mainClass>no.simplicityworks.qrscanner.QRScanner</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+			</plugin>
 		</plugins>
 	</build>
 </project>
